@@ -11259,6 +11259,8 @@ section#series_updated .intestazione p {
 }
 section#series_updated .singolo {
   background-color: #F3F3F3;
+  border-radius: 0.9rem;
+  margin: 30px auto;
 }
 section#series_updated .singolo .contenuto {
   padding: 30px 45px;
@@ -11280,10 +11282,12 @@ section#series_updated .singolo .contenuto p {
   color: gray;
 }
 section#series_updated .singolo .contenuto .info {
-  color: #9c9b9c;
+  color: #C3CAD0;
 }
 section#series_updated .singolo .contenuto .info img {
   width: 7px;
+  height: 18px;
+  margin-right: 7.5px;
 }
 section#series_updated .singolo .contenuto .info .container_difficulty {
   width: 66px;
@@ -11291,25 +11295,36 @@ section#series_updated .singolo .contenuto .info .container_difficulty {
   display: flex;
   flex-direction: row;
 }
-section#series_updated .singolo .contenuto .info .container_difficulty p {
-  display: inline-block;
+section#series_updated .singolo .contenuto .info span {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.6rem;
+  margin-right: 15px;
+}
+section#series_updated .singolo .contenuto .info i {
+  margin-right: 7.5px;
 }
 section#series_updated .singolo .contenuto .start {
-  padding: 7.5px;
-  height: 20px;
+  padding: 7.5px 0;
   width: 208px;
   border: none;
-  color: balck;
-  background-color: #9c9b9c;
+  background-color: #EDEDED;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+section#series_updated .singolo .contenuto .start i {
+  margin-right: 7.5px;
 }
 section#series_updated .singolo .immagine {
   position: relative;
   overflow: hidden;
+  border-radius: 0.9rem;
 }
 section#series_updated .singolo .immagine img {
-  width: 100%;
-  right: -140px;
-  top: -40px;
+  width: 110%;
+  right: -185px;
+  top: -55px;
   position: absolute;
 }
 

@@ -17,6 +17,8 @@ section#series_updated {
     }
     .singolo{
       background-color: #F3F3F3;
+      border-radius: 0.9rem;
+      margin: 30px auto;
         .contenuto {
             padding: 30px 45px;
             .tag{
@@ -36,37 +38,49 @@ section#series_updated {
                 color: gray;
             }
             .info{
-                color: rgb(156, 155, 156);
+                color: #C3CAD0;
                 img {
                     width: 7px;
+                    height: 18px;
+                    margin-right: 7.5px;
                 }
                 .container_difficulty{
                     width: 66px;
                     height: 30px;
                     display: flex;
                     flex-direction: row;
-                    p {
-                        display: inline-block;
-                    }
                 }
-
+                span{
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 0.6rem;
+                    margin-right: 15px;
+                }
+                i{
+                    margin-right: 7.5px;
+                }
             }
             .start{
-                padding:7.5px;
-                height: 20px;
+                padding:7.5px 0;
                 width: 208px;
                 border: none;
-                color: balck;
-                background-color: rgb(156, 155, 156);
+                background-color: #EDEDED;
+                font-weight: 500;
+                font-family: 'Poppins', sans-serif;
+                font-size: 0.9rem;
+                i{
+                    margin-right: 7.5px;
+                }
             }
         }
         .immagine{
             position: relative;
             overflow: hidden;
+            border-radius: 0.9rem;
             img{
-                width: 100%;
-                right: -140px;
-                top: -40px;
+                width: 110%;
+                right: -185px;
+                top: -55px;
                 position: absolute;
             }
 
