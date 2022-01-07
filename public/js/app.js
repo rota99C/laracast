@@ -19380,6 +19380,19 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+var button_tag = document.querySelectorAll(".tag");
+/* console.log(button_tag); */
+
+for (var index = 0; index < button_tag.length; index++) {
+  var element = button_tag[index];
+
+  if (element.value == "TOOLING") {
+    element.style.backgroundColor = "#845BE2";
+  } else if (element.value == "FRAMEWORKS") {
+    element.style.backgroundColor = "#E1424B";
+  }
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

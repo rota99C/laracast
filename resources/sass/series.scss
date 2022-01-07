@@ -1,24 +1,63 @@
 section{
     padding: 40px 30px;
     background-color: #EBECF0;
+}
+.intestazione h2{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px!important;
+  }
 
-    .intestazione{
-          h2{
-        font-family: 'Cabin', sans-serif;
-        font-weight: 400;
-        }
-
-        p{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 1.1rem;
-        color: pink;
-        }
-    }
-    
+.intestazione p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
   
+  }
 
+  .singolo{
+      background-color: #F3F3F3;
 
+  }
 
+  .contenuto{
+      padding: 30px 45px;
+  }
+
+  .tag{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: white;
+    padding: 6px 22.5px;
+    border: none;
+}
+
+  .contenuto h3{
+      font-weight: 400;
+      font-family: 'Cabin', sans-serif;
+  }
+
+  .contenuto p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+
+  }
+
+  .info{
+      color: rgb(156, 155, 156);
+  }
+
+  
+  .immagine{
+      position: relative;
+      overflow: hidden;
+  }
+
+  .immagine img{
+      width: 100%;
+      right: -140px;
+      top: -40px;
+      position: absolute;
 }
 

@@ -13,7 +13,7 @@ return [
                     "level"=> "Advanced Difficulty",
                     "lessons" => "16 Lessons",
                     "time" => "2h 56m",
-                    "image"=> "graphql-with-laravel-and-vue.png" 
+                    "image"=> "https://laracasts.nyc3.cdn.digitaloceanspaces.com/series/thumbnails/graphql-with-laravel-and-vue.png" 
                 ],
                 [
                     "tag"=> "FRAMEWORKS",
@@ -22,7 +22,7 @@ return [
                     "level"=> "Intermediate Difficulty",
                     "lessons" => "24 Lessons",
                     "time" => "6h 34m",
-                    "image" => "mobile-apps-with-react-native.png"
+                    "image" => "https://laracasts.nyc3.cdn.digitaloceanspaces.com/series/thumbnails/mobile-apps-with-react-native.png"
                 ]
 
             ] 
