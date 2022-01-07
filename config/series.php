@@ -10,7 +10,7 @@ return [
                     "tag"=> "TOOLING",
                     "title" => "GraphQL with Laravel and Vue",
                     "description" => "GraphQL is often looked at as the successor to REST APIs. It provides a powerful query language and allows you to make requests for exactly the information you want, nothing more and nothing less. Many services now offer GraphQL APIs making it easier...",
-                    "level"=> "Advanced Difficulty",
+                    "level"=> "Advanced ",
                     "lessons" => "16 Lessons",
                     "time" => "2h 56m",
                     "image"=> "https://laracasts.nyc3.cdn.digitaloceanspaces.com/series/thumbnails/graphql-with-laravel-and-vue.png" 
