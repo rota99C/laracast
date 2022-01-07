@@ -1,17 +1,17 @@
 @extends('layout.app')
 
 @section ("page-title", "Laracasts Series")
+@section ('css')
+<link rel="stylesheet" href="../sass/series.scss"> 
+@endsection
 
 @section ("content")
+@include ('recently_updated')
 
-<h1>{{$series_updated['category']}}</h1>
-<p>{{$series_updated['subtitle']}}</p>
 
-@foreach ($series_updated['cards'] as $card)
 
-<h1>{{$card['tag']}}</h1>
 
-@endforeach
+
 
 @endsection
 
