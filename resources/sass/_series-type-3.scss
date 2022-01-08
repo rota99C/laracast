@@ -1,0 +1,105 @@
+section#series_build_an_app {
+    padding: 40px 30px;
+    background-color: #EBECF0;
+
+    .intestazione {
+        h2 {
+            font-family: 'Cabin', sans-serif;
+            font-weight: 400;
+            margin-bottom: 10px!important;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.1rem;
+            
+        }
+    };
+    .singolo{
+        .container-singolo{
+        border-radius: 1.5rem;
+        
+        .container-image{
+        background-image: linear-gradient(to bottom, #f44881 , #ec454f);
+        padding: 1.25rem 1rem;
+        border: 0 solid;
+        font-size: 100%;
+        font-weight: 400;
+        border-radius: 0.9rem;
+        margin-right: -10px;
+         z-index: 2;
+
+         p {
+             font-weight: 600;
+             font-size: 0.6rem;
+             font-family: 'Poppins', sans-serif;
+             color: white;
+             text-align: center;
+         }
+         span {
+             height: 0.25rem;
+             display: inline-block;
+             width: 20px;
+             margin: 0 1.5px;
+             border-radius: 0.9rem;
+         }
+
+                    .tag{
+                    
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 700;
+                        font-size: 0.7rem;
+                        color: white;
+                        padding: 6px 22.5px;
+                        border: none;
+                }
+                    .img{
+                    width: 80%;
+                    }
+        }
+
+        .container-contenuto{
+            padding: 1.25rem 1rem 1.25rem 1.6rem;
+            background-color: white;
+            border-bottom-right-radius: 0.9rem;
+            border-top-right-radius: 0.9rem;
+
+            h3{
+                font-weight: 400;
+                font-family: 'Cabin', sans-serif;
+                font-size: 1.2rem;
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                color: gray;
+                font-size: 0.8rem;
+            }
+            .info{
+                color: #C3CAD0;
+                span{
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 0.6rem;
+                    margin-right: 15px;
+                }
+                i{
+                    margin-right: 7.5px;
+                }
+            }
+
+        }
+        
+        
+        
+        
+        }
+        
+        
+        
+    
+    }
+
+    
+
+
+};

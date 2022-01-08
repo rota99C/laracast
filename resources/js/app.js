@@ -45,3 +45,36 @@ for (let index = 0; index < immagine.length; index++) {
 
 }
 
+
+//ho aggiunto una classe con lo stesso livello di difficoltà dall'array
+
+const meter = document.querySelectorAll("#difficulty-meter")
+
+console.log(meter);
+
+for (let index = 0; index < meter.length; index++) {
+    const element = meter[index];
+    const span = element.children
+    //https://www.w3schools.com/jsref/prop_element_children.asp
+    console.log(span);
+    if (element.classList.contains("Beginner")) {
+        span[0].style.backgroundColor = "white"
+        span[1].style.backgroundColor = "#B2343E"
+        span[2].style.backgroundColor = "#B2343E"
+    }
+    else if (element.classList.contains("Intermediate")) {
+        span[0].style.backgroundColor = "white"
+        span[1].style.backgroundColor = "white"
+        span[2].style.backgroundColor = "#B2343E"
+    }
+    else if (element.classList.contains("Advanced")) {
+        for (let index = 0; index < span.length; index++) {
+            span[index].style.backgroundColor = "white"
+        }
+    }
+
+
+}
+
+
+

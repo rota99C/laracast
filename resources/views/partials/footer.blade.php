@@ -1,4 +1,4 @@
-<footer class="w-100 position-relative">
+<footer class="w-100 position-relative overflow-hidden">
     <img class="footer-img position-absolute" src="{{asset('img/footer-gang.png')}}" alt="">
     <div class="footer-container h-100 m-auto">
         <div class="newsletter">
@@ -12,7 +12,7 @@
             <div class="col-6">
                 <img src="{{asset('img/Laracasts-footer.png')}}" alt="">
                 <p class="text-white w-75 mt-3 mb-4">
-                Nine out of ten doctors recommend Laracasts over competing brands. Come inside, see for yourself, and massively level up your development skills in the process.
+                    Nine out of ten doctors recommend Laracasts over competing brands. Come inside, see for yourself, and massively level up your development skills in the process.
                 </p>
                 <div class="social">
                     <img src="{{asset('img/youtube.png')}}" alt="">
@@ -36,7 +36,7 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                <ul>
+                    <ul>
                         <h5>DISCUSS</h5>
                         <li>Forum</li>
                         <li>Podcast</li>
@@ -45,7 +45,7 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                <ul>
+                    <ul>
                         <h5>EXTRAS</h5>
                         <li>Gift Certificates</li>
                         <li>Teams</li>

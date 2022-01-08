@@ -19417,6 +19417,31 @@ for (var _index2 = 0; _index2 < immagine.length; _index2++) {
   } else if (_index2 % 2 !== 0) {
     _element2.style.right = "-185px";
   }
+} //ho aggiunto una classe con lo stesso livello di difficoltà dall'array
+
+
+var meter = document.querySelectorAll("#difficulty-meter");
+console.log(meter);
+
+for (var _index3 = 0; _index3 < meter.length; _index3++) {
+  var _element3 = meter[_index3];
+  var span = _element3.children; //https://www.w3schools.com/jsref/prop_element_children.asp
+
+  console.log(span);
+
+  if (_element3.classList.contains("Beginner")) {
+    span[0].style.backgroundColor = "white";
+    span[1].style.backgroundColor = "#B2343E";
+    span[2].style.backgroundColor = "#B2343E";
+  } else if (_element3.classList.contains("Intermediate")) {
+    span[0].style.backgroundColor = "white";
+    span[1].style.backgroundColor = "white";
+    span[2].style.backgroundColor = "#B2343E";
+  } else if (_element3.classList.contains("Advanced")) {
+    for (var _index4 = 0; _index4 < span.length; _index4++) {
+      span[_index4].style.backgroundColor = "white";
+    }
+  }
 }
 
 /***/ }),

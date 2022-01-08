@@ -21,5 +21,7 @@ Route::get('/', function () {
     $series_new = $series['new_to_laracasts'];
     $series_learn = $series['learn_laravel'];
     $series_featured = $series['currently_featured'];
-    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured"));
+    $series_build_an_app = $series['build_an_app'];
+    $series_master_editor = $series['master_editor'];
+    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured", 'series_build_an_app', 'series_master_editor'));
 })->name('series');
