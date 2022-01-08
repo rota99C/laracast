@@ -17,7 +17,6 @@ Route::get('/', function () {
     $series = config('series.data');
     /* riscontrato problema di comunicazione tra rotta e view, unica soluzione trovata e funzionante è la seguente */
     $series_updated = $series['recently_updated'];
-    return view('index', compact('series','series_updated'));
+    $series_oop = $series['learn_OOP'];
+    return view('index', compact('series', 'series_updated', 'series_oop'));
 })->name('series');
-
-

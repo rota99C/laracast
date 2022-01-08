@@ -11328,6 +11328,74 @@ section#series_updated .singolo .immagine img {
   position: absolute;
 }
 
+section#series_oop {
+  padding: 40px 30px;
+  background-color: #EBECF0;
+}
+section#series_oop .intestazione h2 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+section#series_oop .intestazione p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+section#series_oop .singolo {
+  background-color: #F3F3F3;
+  border-radius: 0.9rem;
+  margin: 30px auto;
+}
+section#series_oop .singolo .contenuto {
+  padding: 30px 45px;
+}
+section#series_oop .singolo .contenuto h3 {
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.2rem;
+}
+section#series_oop .singolo .contenuto p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 0.8rem;
+}
+section#series_oop .singolo .contenuto .info {
+  color: #C3CAD0;
+}
+section#series_oop .singolo .contenuto .info span {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.6rem;
+  margin-right: 15px;
+}
+section#series_oop .singolo .contenuto .info i {
+  margin-right: 7.5px;
+}
+section#series_oop .singolo .contenuto .start {
+  padding: 7.5px 0;
+  width: 208px;
+  border: none;
+  background-color: #EDEDED;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+section#series_oop .singolo .contenuto .start i {
+  margin-right: 7.5px;
+}
+section#series_oop .singolo .immagine {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.9rem;
+}
+section#series_oop .singolo .immagine img {
+  width: 140%;
+  right: 40px;
+  top: -20px;
+  position: absolute;
+}
+
 * {
   margin: 0;
   padding: 0;

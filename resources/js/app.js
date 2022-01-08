@@ -13,3 +13,35 @@ for (let index = 0; index < button_tag.length; index++) {
     }
 
 }
+
+const metasingolo = document.querySelectorAll(".metaSingolo")
+console.log(metasingolo);
+for (let index = 0; index < metasingolo.length; index++) {
+    const element = metasingolo[index];
+    if (index == 0) {
+        element.style.flexDirection = "row"
+
+    }
+    else if (index == 1) {
+        element.style.flexDirection = "row-reverse"
+
+    }
+
+}
+
+const immagine = document.querySelectorAll(".metaSingolo img")
+console.log(immagine);
+for (let index = 0; index < immagine.length; index++) {
+    const element = immagine[index];
+    if (index == 0) {
+        element.style.right = "40px"
+
+    }
+    else if (index == 1) {
+        element.style.right = "-185px"
+
+    }
+
+
+}
+

@@ -35,7 +35,7 @@ return [
                 "description" => "Laravel 8 is here! This release includes brand new application scaffolding, class-based model factories, migration squashing, time traveling, and so much more. Join me as, one topic per episode, we review everything you need to know!",
                 "lessons" => "12 Lessons",
                 "time" => "59m",
-                "image" => "whats-new-in-laravel-8.png"
+                "image" => ""
             ],
             [
                 "title" => "Laravel 8 From Scratch",
@@ -49,18 +49,20 @@ return [
             "category" => "Learn OOP",
             "subtitle" => "A full understanding and appreciation for how objects communicate with one another is essential to your maturity as a web developer.",
             "cards" => [
-                "title" => "Object-Oriented Principles in PHP",
-                "description" => "The typical beginner, whether they realize it or not, first learns procedural programming. But, before too long, they level up. Suddenly, an entirely different paradigm is introduced: object-oriented programming. Little do they know that they'll spend years researching and learning",
-                "lessons" => "9 Lessons",
-                "time" => "1h 33m",
-                "image" => "object-oriented-principles-in-php.png"
-            ],
-            [
-                "title" => "SOLID Principles in PHP",
-                "description" => "SOLID represents a series of guidelines that developers can use to, if done well, simplify and clarify their code. While certainly not laws, understanding these concepts will make you a better developer.",
-                "lessons" => "5 Lessons",
-                "time" => "57m",
-                "image" => "object-oriented-principles-in-php.png"
+                [
+                    "title" => "Object-Oriented Principles in PHP",
+                    "description" => "The typical beginner, whether they realize it or not, first learns procedural programming. But, before too long, they level up. Suddenly, an entirely different paradigm is introduced: object-oriented programming. Little do they know that they'll spend years researching and learning",
+                    "lessons" => "9 Lessons",
+                    "time" => "1h 33m",
+                    "image" => "https://laracasts.nyc3.cdn.digitaloceanspaces.com/series/thumbnails/svg/object-oriented-principles-in-php.svg"
+                ],
+                [
+                    "title" => "SOLID Principles in PHP",
+                    "description" => "SOLID represents a series of guidelines that developers can use to, if done well, simplify and clarify their code. While certainly not laws, understanding these concepts will make you a better developer.",
+                    "lessons" => "5 Lessons",
+                    "time" => "57m",
+                    "image" => "https://laracasts.nyc3.cdn.digitaloceanspaces.com/series/thumbnails/svg/solid-principles-in-php.svg"
+                ]
             ]
         ],
         "master_editor" => [

@@ -19393,6 +19393,32 @@ for (var index = 0; index < button_tag.length; index++) {
   }
 }
 
+var metasingolo = document.querySelectorAll(".metaSingolo");
+console.log(metasingolo);
+
+for (var _index = 0; _index < metasingolo.length; _index++) {
+  var _element = metasingolo[_index];
+
+  if (_index == 0) {
+    _element.style.flexDirection = "row";
+  } else if (_index == 1) {
+    _element.style.flexDirection = "row-reverse";
+  }
+}
+
+var immagine = document.querySelectorAll(".metaSingolo img");
+console.log(immagine);
+
+for (var _index2 = 0; _index2 < immagine.length; _index2++) {
+  var _element2 = immagine[_index2];
+
+  if (_index2 == 0) {
+    _element2.style.right = "40px";
+  } else if (_index2 == 1) {
+    _element2.style.right = "-185px";
+  }
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
