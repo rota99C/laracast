@@ -9,6 +9,10 @@
 @section ("content")
 @include ('recently_updated')
 @include ('learn_oop')
+@include ('new_to_laracast')
+@include ('learn_laravel')
+@include ('currently_featured')
+
 
 
 

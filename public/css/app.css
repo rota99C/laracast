@@ -11243,29 +11243,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-section#series_updated {
+section#series_updated, section#series_featured {
   padding: 40px 30px;
   background-color: #EBECF0;
 }
-section#series_updated .intestazione h2 {
+section#series_updated .intestazione h2, section#series_featured .intestazione h2 {
   font-family: "Cabin", sans-serif;
   font-weight: 400;
   margin-bottom: 10px !important;
 }
-section#series_updated .intestazione p {
+section#series_updated .intestazione p, section#series_featured .intestazione p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
 }
-section#series_updated .singolo {
+section#series_updated .singolo, section#series_featured .singolo {
   background-color: #F3F3F3;
   border-radius: 0.9rem;
   margin: 30px auto;
 }
-section#series_updated .singolo .contenuto {
+section#series_updated .singolo .contenuto, section#series_featured .singolo .contenuto {
   padding: 30px 45px;
 }
-section#series_updated .singolo .contenuto .tag {
+section#series_updated .singolo .contenuto .tag, section#series_featured .singolo .contenuto .tag {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 0.7rem;
@@ -11273,38 +11273,38 @@ section#series_updated .singolo .contenuto .tag {
   padding: 6px 22.5px;
   border: none;
 }
-section#series_updated .singolo .contenuto h3 {
+section#series_updated .singolo .contenuto h3, section#series_featured .singolo .contenuto h3 {
   font-weight: 400;
   font-family: "Cabin", sans-serif;
 }
-section#series_updated .singolo .contenuto p {
+section#series_updated .singolo .contenuto p, section#series_featured .singolo .contenuto p {
   font-family: "Poppins", sans-serif;
   color: gray;
 }
-section#series_updated .singolo .contenuto .info {
+section#series_updated .singolo .contenuto .info, section#series_featured .singolo .contenuto .info {
   color: #C3CAD0;
 }
-section#series_updated .singolo .contenuto .info img {
+section#series_updated .singolo .contenuto .info img, section#series_featured .singolo .contenuto .info img {
   width: 7px;
   height: 18px;
   margin-right: 7.5px;
 }
-section#series_updated .singolo .contenuto .info .container_difficulty {
+section#series_updated .singolo .contenuto .info .container_difficulty, section#series_featured .singolo .contenuto .info .container_difficulty {
   width: 66px;
   height: 30px;
   display: flex;
   flex-direction: row;
 }
-section#series_updated .singolo .contenuto .info span {
+section#series_updated .singolo .contenuto .info span, section#series_featured .singolo .contenuto .info span {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 0.6rem;
   margin-right: 15px;
 }
-section#series_updated .singolo .contenuto .info i {
+section#series_updated .singolo .contenuto .info i, section#series_featured .singolo .contenuto .info i {
   margin-right: 7.5px;
 }
-section#series_updated .singolo .contenuto .start {
+section#series_updated .singolo .contenuto .start, section#series_featured .singolo .contenuto .start {
   padding: 7.5px 0;
   width: 208px;
   border: none;
@@ -11313,66 +11313,66 @@ section#series_updated .singolo .contenuto .start {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
 }
-section#series_updated .singolo .contenuto .start i {
+section#series_updated .singolo .contenuto .start i, section#series_featured .singolo .contenuto .start i {
   margin-right: 7.5px;
 }
-section#series_updated .singolo .immagine {
+section#series_updated .singolo .immagine, section#series_featured .singolo .immagine {
   position: relative;
   overflow: hidden;
   border-radius: 0.9rem;
 }
-section#series_updated .singolo .immagine img {
+section#series_updated .singolo .immagine img, section#series_featured .singolo .immagine img {
   width: 110%;
   right: -185px;
   top: -55px;
   position: absolute;
 }
 
-section#series_oop {
+section#series_oop, section#series_new, section#series_learn {
   padding: 40px 30px;
   background-color: #EBECF0;
 }
-section#series_oop .intestazione h2 {
+section#series_oop .intestazione h2, section#series_new .intestazione h2, section#series_learn .intestazione h2 {
   font-family: "Cabin", sans-serif;
   font-weight: 400;
   margin-bottom: 10px !important;
 }
-section#series_oop .intestazione p {
+section#series_oop .intestazione p, section#series_new .intestazione p, section#series_learn .intestazione p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
 }
-section#series_oop .singolo {
+section#series_oop .singolo, section#series_new .singolo, section#series_learn .singolo {
   background-color: #F3F3F3;
   border-radius: 0.9rem;
   margin: 30px auto;
 }
-section#series_oop .singolo .contenuto {
+section#series_oop .singolo .contenuto, section#series_new .singolo .contenuto, section#series_learn .singolo .contenuto {
   padding: 30px 45px;
 }
-section#series_oop .singolo .contenuto h3 {
+section#series_oop .singolo .contenuto h3, section#series_new .singolo .contenuto h3, section#series_learn .singolo .contenuto h3 {
   font-weight: 400;
   font-family: "Cabin", sans-serif;
   font-size: 1.2rem;
 }
-section#series_oop .singolo .contenuto p {
+section#series_oop .singolo .contenuto p, section#series_new .singolo .contenuto p, section#series_learn .singolo .contenuto p {
   font-family: "Poppins", sans-serif;
   color: gray;
   font-size: 0.8rem;
 }
-section#series_oop .singolo .contenuto .info {
+section#series_oop .singolo .contenuto .info, section#series_new .singolo .contenuto .info, section#series_learn .singolo .contenuto .info {
   color: #C3CAD0;
 }
-section#series_oop .singolo .contenuto .info span {
+section#series_oop .singolo .contenuto .info span, section#series_new .singolo .contenuto .info span, section#series_learn .singolo .contenuto .info span {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 0.6rem;
   margin-right: 15px;
 }
-section#series_oop .singolo .contenuto .info i {
+section#series_oop .singolo .contenuto .info i, section#series_new .singolo .contenuto .info i, section#series_learn .singolo .contenuto .info i {
   margin-right: 7.5px;
 }
-section#series_oop .singolo .contenuto .start {
+section#series_oop .singolo .contenuto .start, section#series_new .singolo .contenuto .start, section#series_learn .singolo .contenuto .start {
   padding: 7.5px 0;
   width: 208px;
   border: none;
@@ -11381,15 +11381,15 @@ section#series_oop .singolo .contenuto .start {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
 }
-section#series_oop .singolo .contenuto .start i {
+section#series_oop .singolo .contenuto .start i, section#series_new .singolo .contenuto .start i, section#series_learn .singolo .contenuto .start i {
   margin-right: 7.5px;
 }
-section#series_oop .singolo .immagine {
+section#series_oop .singolo .immagine, section#series_new .singolo .immagine, section#series_learn .singolo .immagine {
   position: relative;
   overflow: hidden;
   border-radius: 0.9rem;
 }
-section#series_oop .singolo .immagine img {
+section#series_oop .singolo .immagine img, section#series_new .singolo .immagine img, section#series_learn .singolo .immagine img {
   width: 140%;
   right: 40px;
   top: -20px;
