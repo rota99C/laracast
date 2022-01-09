@@ -1,26 +1,11 @@
-section#series_build_an_app {
-    padding: 40px 30px;
-    background-color: #EBECF0;
-
-    .intestazione {
-        h2 {
-            font-family: 'Cabin', sans-serif;
-            font-weight: 400;
-            margin-bottom: 10px!important;
-        }
-        p {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            font-size: 1.1rem;
-            
-        }
-    };
-    .singolo{
-        .container-singolo{
+    
+    .singolo, #series_build_an_app{
+        background-color: #EBECF0;
+    }
+        .container-singolo, #series_master_2, #series_tool_2, #series_master_tool{
         border-radius: 1.5rem;
         
         .container-image{
-        background-image: linear-gradient(to bottom, #f44881 , #ec454f);
         padding: 1.25rem 1rem;
         border: 0 solid;
         font-size: 100%;
@@ -50,8 +35,9 @@ section#series_build_an_app {
                         font-weight: 700;
                         font-size: 0.7rem;
                         color: white;
-                        padding: 6px 22.5px;
+                        padding: 6px 11.5px;
                         border: none;
+                        text-align: center;
                 }
                     .img{
                     width: 80%;
@@ -87,19 +73,9 @@ section#series_build_an_app {
                 }
             }
 
+        }      
         }
-        
-        
-        
-        
-        }
-        
-        
-        
-    
-    }
-
+   
     
 
-
-};
+    

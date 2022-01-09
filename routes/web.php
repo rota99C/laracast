@@ -23,5 +23,7 @@ Route::get('/', function () {
     $series_featured = $series['currently_featured'];
     $series_build_an_app = $series['build_an_app'];
     $series_master_editor = $series['master_editor'];
-    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured", 'series_build_an_app', 'series_master_editor'));
+    $series_learn_a_tool = $series['learn_tool'];
+    $series_grow_TALL = $series['grow_TALL'];
+    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured", 'series_build_an_app', 'series_master_editor', 'series_learn_a_tool', 'series_grow_TALL'));
 })->name('series');

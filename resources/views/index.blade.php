@@ -9,12 +9,14 @@
 
 @section ("content")
 @include ('recently_updated')
-@include ('learn_oop')
-@include ('new_to_laracast')
 @include ('master_editor')
-@include ('learn_laravel')
+@include ('grow_TALL')
+@include ('learn_a_tool')
+@include ('new_to_laracast')
+@include ('learn_oop')
 @include ('build_an_app')
 @include ('currently_featured')
+@include ('learn_laravel')
 
 
 

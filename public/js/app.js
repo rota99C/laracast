@@ -19378,7 +19378,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // interazione con la dom per modificare il colore del tag
+
 
 var button_tag = document.querySelectorAll(".tag");
 /* console.log(button_tag); */
@@ -19390,8 +19391,13 @@ for (var index = 0; index < button_tag.length; index++) {
     element.style.backgroundColor = "#845BE2";
   } else if (element.value == "FRAMEWORKS") {
     element.style.backgroundColor = "#E1424B";
+  } else if (element.value == "LANGUAGES") {
+    element.style.backgroundColor = "rgb(241, 154, 26)";
+  } else {
+    element.style.backgroundColor = "#22ADDD";
   }
-}
+} // interazione con la dom per modificare il layout 
+
 
 var metasingolo = document.querySelectorAll(".metaSingolo");
 console.log(metasingolo);
@@ -19418,6 +19424,7 @@ for (var _index2 = 0; _index2 < immagine.length; _index2++) {
     _element2.style.right = "-185px";
   }
 } //ho aggiunto una classe con lo stesso livello di difficoltà dall'array
+// interazione con la dom per modificare il colore del level bar
 
 
 var meter = document.querySelectorAll("#difficulty-meter");
@@ -19431,16 +19438,33 @@ for (var _index3 = 0; _index3 < meter.length; _index3++) {
 
   if (_element3.classList.contains("Beginner")) {
     span[0].style.backgroundColor = "white";
-    span[1].style.backgroundColor = "#B2343E";
-    span[2].style.backgroundColor = "#B2343E";
+    span[1].style.backgroundColor = "rgba(0,0,0,0.25)";
+    span[2].style.backgroundColor = "rgba(0,0,0,0.25)";
   } else if (_element3.classList.contains("Intermediate")) {
     span[0].style.backgroundColor = "white";
     span[1].style.backgroundColor = "white";
-    span[2].style.backgroundColor = "#B2343E";
+    span[2].style.backgroundColor = "rgba(0,0,0,0.25)";
   } else if (_element3.classList.contains("Advanced")) {
     for (var _index4 = 0; _index4 < span.length; _index4++) {
       span[_index4].style.backgroundColor = "white";
     }
+  }
+} // interazione con la dom per modificare il colore del container-image
+
+
+var container_image = document.querySelectorAll(".container-image");
+
+for (var _index5 = 0; _index5 < container_image.length; _index5++) {
+  var _element4 = container_image[_index5];
+
+  if (_element4.classList.contains("TOOLING")) {
+    _element4.style.backgroundImage = "linear-gradient(to bottom, #8b60ed, #b372bd)";
+  } else if (_element4.classList.contains("FRAMEWORKS")) {
+    _element4.style.backgroundImage = "linear-gradient(to bottom, #f44881 , #ec454f)";
+  } else if (_element4.classList.contains("TECHNIQUES")) {
+    _element4.style.backgroundImage = "linear-gradient(to bottom, #21C8F6 , #637BFF)";
+  } else {
+    _element4.style.backgroundImage = "linear-gradient(to bottom, #f19a1a , #ffc73c)";
   }
 }
 

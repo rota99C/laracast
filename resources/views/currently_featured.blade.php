@@ -1,11 +1,11 @@
-<section id="series_featured">
+<section>
     <div class="intestazione w-100 text-center">
         <h2>{{$series_featured['category']}}</h2>
         <p>{{$series_featured['subtitle']}}</p>
     </div>
 
     @foreach ($series_featured['cards'] as $card)
-    <div class="singolo w-75 d-flex">
+    <div id="series_featured" class="singolo w-75 d-flex">
         <div class="contenuto col-8">
             <button class="tag rounded-pill mb-3" value="{{$card['tag']}}">{{$card['tag']}}</button>
             <h3 class="mb-4">{{$card['title']}}</h3>

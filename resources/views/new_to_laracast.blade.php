@@ -1,4 +1,4 @@
-<section id="series_new">
+<section>
     <div class="intestazione w-100 text-center">
         <h2>{{$series_new['category']}}</h2>
         <p>{{$series_new['subtitle']}}</p>
@@ -7,7 +7,7 @@
 
 
 
-    <div class="singolo w-75 d-flex">
+    <div id="series_new" class="singolo w-75 d-flex bg-white">
         @foreach ($series_new['cards'] as $card)
         <div class="metaSingolo col-6 d-flex ">
             <div class="col-6 immagine">

@@ -1,22 +1,5 @@
-section#series_oop, section#series_new, section#series_learn {
-    padding: 40px 30px;
-    background-color: #EBECF0;
 
-    .intestazione {
-        h2 {
-            font-family: 'Cabin', sans-serif;
-            font-weight: 400;
-            margin-bottom: 10px!important;
-        }
-        p {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            font-size: 1.1rem;
-            
-        }
-    }
-    .singolo{
-      background-color: #F3F3F3;
+    .singolo, #series_oop, #series_new, #series_learn, #series_grow_TALL{
       border-radius: 0.9rem;
       margin: 30px auto;
         .contenuto {
@@ -69,4 +52,4 @@ section#series_oop, section#series_new, section#series_learn {
 
         }
     }
-}
+
