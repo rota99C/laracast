@@ -25,5 +25,11 @@ Route::get('/', function () {
     $series_master_editor = $series['master_editor'];
     $series_learn_a_tool = $series['learn_tool'];
     $series_grow_TALL = $series['grow_TALL'];
-    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured", 'series_build_an_app', 'series_master_editor', 'series_learn_a_tool', 'series_grow_TALL'));
+    $series_more_recently = $series['more_recently_updated'];
+    $series_dont_forget = $series['dont_forget'];
+    $series_trending = $series['trending_series'];
+    $series_whats_new = $series['whats_new'];
+    $series_level_up = $series['level_up'];
+    $series_explore = $series['explore_topics'];
+    return view('index', compact('series', 'series_updated', 'series_oop', 'series_new', 'series_learn', "series_featured", 'series_build_an_app', 'series_master_editor', 'series_learn_a_tool', 'series_grow_TALL', "series_more_recently", 'series_dont_forget', 'series_trending', 'series_whats_new', 'series_level_up', 'series_explore'));
 })->name('series');

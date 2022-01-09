@@ -1,0 +1,89 @@
+.gradient-blu{
+    background-image: linear-gradient(to right, #324466, #60799e);
+}
+.gradient-red{
+    background-image: linear-gradient(to right, #ec454f, #334567);
+
+}
+
+.gradient-green{
+    background-image: linear-gradient(to right, #45957b, #36486a);
+}
+
+
+
+
+.container-trending, .container-whats_new, .container-level{
+    border-radius: 0.9rem;
+
+    .container-image-hero {
+        overflow: hidden;
+        img{
+            left: -60px;
+            bottom: -75px;
+            width: 119%;
+            
+        }
+
+
+
+    }
+    .singola-row{
+        row-gap: 1.25rem;
+        
+        padding: 45px 45px 45px 0px;
+            .singola{
+                    height: 98.5px;
+                    .container-logo{
+                    padding: 11.25px;
+                    border-radius: 0.9rem;
+                    background-color: rgba(0,0,0,0.1);
+                    margin-right: 15px;
+                      img{
+                        width: 76px;
+                        height: 76px;
+                    
+                    }
+                   
+                }
+                h5{
+                    margin-bottom: 10px;
+                    font-size: .9rem;
+                    font-weight: 600;
+                    font-family: "Cabin",sans-serif;
+                    opacity: 0.8;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                    overflow:hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    color: white;
+                    
+                }
+
+                p{
+                    font-size: 0.6rem;
+                    opacity: 0.5;
+                    /* https://stackoverflow.com/questions/33058004/applying-an-ellipsis-to-multiline-text
+                    https://medium.com/@dvmsoni3132/easy-truncate-multi-line-ellipsis-with-pure-css-e0d24d68078e */
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow:hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    color: white;
+                    
+                }
+            }
+
+
+
+
+    }
+
+    
+
+
+
+    
+}

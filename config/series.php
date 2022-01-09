@@ -350,6 +350,7 @@ return [
         "trending_series" => [
             "category" => "Trending Series",
             "subtitle" => "Here's what your peers are binging",
+            "img-hero" => "https://laracasts.com/images/lary-trending.svg",
             "cards" => [
                 [
                     "title" => "Laravel 8 From Scratch",
@@ -383,7 +384,7 @@ return [
                 ]
             ]
         ],
-        "what_new" => [
+        "whats_new" => [
             "category" => "What's New in Laravel?",
             "subtitle" => "Don't fall behind on the latest and greatest that Laravel has to offer. Learn the key features of each new point release.",
             "img-hero" => "https://laracasts.com/images/journeys/journey-frameworks.svg?v=2",
@@ -497,10 +498,94 @@ return [
             "subtitle" => "Laracasts is categorized into a variety of topics.",
             "cards" => [
                 [
-                    "topic" => "",
-                    "number_series" => "",
-                    "number_videos" => "",
-                    "image" => ""
+                    "topic" => "Laravel",
+                    "number_series" => "57 Series",
+                    "number_videos" => "733 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/laravel-logo.svg"
+                ],
+                [
+                    "topic" => "Symfony",
+                    "number_series" => "1 Series",
+                    "number_videos" => "4 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/symphony-logo.svg"
+                ],
+                [
+                    "topic" => "JavaScript",
+                    "number_series" => "19 Series",
+                    "number_videos" => "220 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/js-logo.svg"
+                ],
+                [
+                    "topic" => "Nova",
+                    "number_series" => "1 Series",
+                    "number_videos" => "15 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/nova-logo.svg"
+                ],
+                [
+                    "topic" => "Git",
+                    "number_series" => "2 Series",
+                    "number_videos" => "35 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/git-logo.svg"
+                ],
+                [
+                    "topic" => "Vue",
+                    "number_series" => "8 Series",
+                    "number_videos" => "134 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/vue-logo.svg"
+                ],
+                [
+                    "topic" => "PHP",
+                    "number_series" => "26 Series",
+                    "number_videos" => "264 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/php-logo.svg"
+                ],
+                [
+                    "topic" => "Visual Studio Code",
+                    "number_series" => "1 Series",
+                    "number_videos" => "18 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/visualstudio-logo.svg"
+                ],
+                [
+                    "topic" => "PHPUnit",
+                    "number_series" => "8 Series",
+                    "number_videos" => "117 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/phpunit-logo.svg"
+                ],
+                [
+                    "topic" => "PHPStorm",
+                    "number_series" => "1 Series",
+                    "number_videos" => "27 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/phpstorm-logo.svg"
+                ],
+                [
+                    "topic" => "Sublime Text",
+                    "number_series" => "2 Series",
+                    "number_videos" => "22 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/sublime-logo.svg"
+                ],
+                [
+                    "topic" => "CSS",
+                    "number_series" => "7 Series",
+                    "number_videos" => "52 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/css-logo.svg"
+                ],
+                [
+                    "topic" => "AlpineJS",
+                    "number_series" => "5 Series",
+                    "number_videos" => "57 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/alpine-logo.svg"
+                ],
+                [
+                    "topic" => "Envoyer",
+                    "number_series" => "1 Series",
+                    "number_videos" => "10 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/envoyer-logo.svg"
+                ],
+                [
+                    "topic" => "Vim",
+                    "number_series" => "1 Series",
+                    "number_videos" => "22 Videos",
+                    "image" => "https://laracasts.com/images/topics/icons/vim-logo.svg"
                 ],
 
             ]
